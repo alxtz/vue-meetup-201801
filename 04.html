@@ -62,14 +62,14 @@
       <div class="todo-lists">
         <h1>Todo</h1>
         <ul>
-          <list-item v-for="i in todoLists" :key="i.id" :id="i.id" :title="i.title" :status="i.isDone"></list-item>
+          <list-item v-for="i in todoLists" :id="i.id" :title="i.title" :status="i.isDone"></list-item>
         </ul>
       </div>
 
       <div class="done-lists">
         <h1>Done</h1>
         <ul>
-          <list-item v-for="i in doneLists" :key="i.id" :id="i.id" :title="i.title" :status="i.isDone"></list-item>
+          <list-item v-for="i in doneLists" :id="i.id" :title="i.title" :status="i.isDone"></list-item>
         </ul>
       </div>
     </div>
